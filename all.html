@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All products</title>
+    <link rel="stylesheet" href="style/all.css">
+
+</head>
+
+<body>
+    <div id="stick">
+        <div id="nav">
+            <div id="img">
+                <a href="index.html">
+                    <img src="./images/apana.digital.png" alt="">
+                </a>
+
+            </div>
+            <div>
+
+                <h1>Welcome:-<span id="welcome"></span></h1>
+            </div>
+
+            <div id="fuction">
+                <a href="cart.html"><button>🛒Cart</button></a><span>|</span>
+                <a href="login.html"><button>🔏Login</button></a>
+            </div>
+        </div>
+        <div id="nav2">
+
+            <a href="all.html"><button>Mobiles&Tab</button></a>
+            <a href="all.html"><button>Laptop</button></a>
+            <a href="all.html"><button>Computer</button></a>
+            <a href="all.html"><button>Personal Care</button></a>
+            <a href="all.html"><button>Cameras</button></a>
+            <a href="all.html"><button>Sounds</button></a>
+            <a href="all.html"><button>Video Player</button></a>
+
+        </div>
+    </div>
+    <div id="body">
+        <div id="div1">
+            <p>Here you con search products by their name.</p>
+            <div id="search">
+                <input  id="search"  oninput="search()" type="text" placeholder="Search by Name                        🔍">
+
+            </div>
+            <p>Here you can sort product by their category</p>
+            <select name="category" id="filter">
+                <option value="all">All</option>
+                <option value="Mobile phones">Mobile</option>
+                <option value="Tv">TV</option>
+                <option value="Refrigerator">Refrigerator</option>
+                <option value="Laptops">Laptops</option>
+            </select>
+            <br />
+            <p>Here you can arrange product by their price</p>
+            <select name="sorting" id="sort">
+                <option value="">Sorting</option>
+                <option value="LTH">Lower-higher</option>
+                <option value="HTL">Higher-lower</option>
+            </select>
+            <h1>😎</h1>
+        </div>
+        <div id="div2">
+            <!-- All product apend Here. -->
+
+        </div>
+    </div>
+
+</body>
+
+</html>
+<script src="./script/all.js"></script>
